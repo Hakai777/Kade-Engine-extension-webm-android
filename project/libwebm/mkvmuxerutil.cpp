@@ -10,6 +10,7 @@
 
 #ifdef __ANDROID__
 #include <fcntl.h>
+#include <unistd.h>
 #endif
 
 #include <cassert>
@@ -19,6 +20,8 @@
 #include <cstring>
 #include <ctime>
 #include <new>
+
+#define HXCPP_ARM64 1
 
 #include "mkvwriter.hpp"
 #include "webmids.hpp"
